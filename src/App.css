@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin: 5px 0;
+}
+.form-control {
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+}
+.form-control:focus{
+    outline: none !important;
+    border-bottom: 2px solid red;
+    /* border-color: inherit; */
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+label {
+    margin: 0 0 5px;
+}
+
+.register-block,
+.login-block {
+    /* background-color: black;
+     */
+    background-color: red;
+    min-height: 100vh;
+}
+
+.navbar {
+    /* background-color: red; */
+    background-color: black;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.regbut {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.formgroup {
+    color: rgb(3, 3, 3);
+}
+
+.login {
+    color: red;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.register-sec,.login-sec {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.reset{
+    color: red;
+}
+.reset-sec{
+    background-color: red;
+}
+.reset-sec label{
+    color: white;
+}
+.resetBtn button{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+.dash{
+    background-color: red;
+    
+}
